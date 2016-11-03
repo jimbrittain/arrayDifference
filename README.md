@@ -2,6 +2,8 @@
 arrayDifference javascript function which returns and array of values (ignores keys, iterative), which contain the values from the first array (parameter 1) which do not occur in the second array (parameter 2). Uni-directional, e.g. if second array contains a value that does not appear in the first, that value will not be in the returned array, whilst vice versa if in first but not in second it will be returned. Who, however, is on first.
 ## Usage
 ```
+    arrayDifference(array1, array2);
+
     arrayDifference([1,2,3,4,5,6], [1,2,3,4,5]) = [6];
     arrayDifference([1,2,3,4,5], [1,2,3,4,5,6]) = [];
     arrayDifference([1,2,3,4,5,6,7,8,9], [1,2,3,4,5]) = [6,7,8,9];
